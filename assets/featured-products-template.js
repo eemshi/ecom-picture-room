@@ -52,10 +52,11 @@ $.getJSON('https://mmmanyfold-api.herokuapp.com/api/lightspeed-ecom/products/tag
 	// compile template
   	$('#featured-products').html(html);
   	// cycle on :hover
-	productCarousel
-	    .on('mouseenter', function() {
-		    $(this).carousel('cycle');
-	    }).on('mouseleave', function () {
-	        $(this).carousel('pause');
-	    });
+	productCarousel.each(function (carousel) {
+		carousel.on('mouseenter', function() {
+			$(this).carousel('cycle');
+		}).on('mouseleave', function () {
+			$(this).carousel('pause');
+		});
+	});
 });

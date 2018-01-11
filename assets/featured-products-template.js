@@ -46,17 +46,16 @@ var template = `
 `;
 
 $.getJSON('https://mmmanyfold-api.herokuapp.com/api/lightspeed-ecom/products/tagged?tag-id=447957')
-  .then(function(json) {
-  	var html = ejs.render(template, {products: json});
-  	var productCarousel = $('.product-carousel');
-	// compile template
-  	$('#featured-products').html(html);
-  	// cycle on :hover
-	productCarousel.each(function (carousel) {
-		carousel.on('mouseenter', function() {
-			$(this).carousel('cycle');
-		}).on('mouseleave', function () {
-			$(this).carousel('pause');
+	.then(function(json) {
+		var html = ejs.render(template, {products: json});
+		// compile template
+		$('#featured-products').html(html);
+		// cycle on :hover
+		$('.product-carousel').each(function (index, carousel) {
+			$(carousel).on('mouseenter', function() {
+				$(carousel).carousel({ interval: 750, ride: 'carousel', pause: false }).carousel('next');
+			}).on('mouseleave', function () {
+				$(carousel).carousel('pause');
+			});
 		});
 	});
-});

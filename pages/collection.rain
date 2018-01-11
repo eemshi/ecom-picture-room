@@ -80,10 +80,14 @@ $.getJSON(`https://mmmanyfold-api.herokuapp.com/api/lightspeed-ecom/products/ima
               return +Object.keys(e)[0] === id;
             });
             var images = product[0][id];
-            images.map(function(url){
+            images.map(function(url, index){
               var el = $('#carousel-'+id);
               var altAttr = el.data('img-alt');
-              el.append('<div class="item"><img src="' + url + '" alt="' + altAttr + '"/></div>');
+              if (index === 0) {
+	              el.append('<div class="item active"><img src="' + url + '" alt="' + altAttr + '"/></div>');
+              } else {
+              	el.append('<div class="item"><img src="' + url + '" alt="' + altAttr + '"/></div>');
+              }
             });
           });
         });

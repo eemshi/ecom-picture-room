@@ -1,5 +1,11 @@
 $(document).ready(function() {
-  $('.product-carousel').carousel({ interval: 1000});
+  $('.product-carousel').each(function (index, carousel) {
+    $(carousel).on('mouseenter', function() {
+      $(carousel).carousel({ interval: 750, ride: 'carousel', pause: false }).carousel('next');
+    }).on('mouseleave', function () {
+      $(carousel).carousel('pause');
+    });
+  });
 });
 
 function bindZoom() {
@@ -145,7 +151,7 @@ function bindZoom() {
               "{{#location}}        {{street}}<br/>" +
               "{{city}}, {{state}}<br/>" +
               "{{zip}}        {{/location}}        {{/place}} </div>" +
-            "<div class='col-xs-6 col-sm-3 join-link'><img width='100%' src='{{ img }}'/><br><br><a class='btn btn-primary' href='{{ link }}'>Join Event</a></div></div></div></script>")
+            "<div class='col-xs-6 col-sm-3 join-link'><img width='100%' src='{{ img }}'/><br><a class='btn btn-primary' href='{{ link }}'>Join Event</a></div></div></div></script>")
     },
 
     renderEvents: function(events) {
@@ -160,8 +166,13 @@ function bindZoom() {
         return sorter;
       });
       var self = this, now = moment().unix(), template = $("#event-template").html();;
-      var upcomingEvents = r_events.some(function(event){
+      var upcomingEvents = r_events.every(function(event){
         var end = event.end_time;
+        var start = event.start_time;
+        var endDateTime = String(end).split('T');
+        var startDateTime = String(start).split('T');
+        var endDate = endDateTime[0];
+        var startDate = startDateTime[0];
         var endUnix = moment(end).unix();
         return endUnix >= now;
       });

@@ -84,9 +84,9 @@ $.getJSON(`https://mmmanyfold-api.herokuapp.com/api/lightspeed-ecom/products/ima
               var el = $('#carousel-'+id);
               var altAttr = el.data('img-alt');
               if (index === 0) {
-	              el.append('<div class="item active"><img src="' + url + '" alt="' + altAttr + '"/></div>');
+                el.append('<div class="item active"><img src="' + url + '" alt="' + altAttr + '"/></div>');
               } else {
-              	el.append('<div class="item"><img src="' + url + '" alt="' + altAttr + '"/></div>');
+                el.append('<div class="item"><img src="' + url + '" alt="' + altAttr + '"/></div>');
               }
             });
           });

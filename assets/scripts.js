@@ -166,7 +166,7 @@ function bindZoom() {
         return sorter;
       });
       var self = this, now = moment().unix(), template = $("#event-template").html();;
-      var upcomingEvents = r_events.every(function(event){
+      var upcomingEvents = r_events.some(function(event){
         var end = event.end_time;
         var start = event.start_time;
         var endDateTime = String(end).split('T');

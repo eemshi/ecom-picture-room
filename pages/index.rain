@@ -3,22 +3,7 @@
 <div id="custom_content" class="span12">
 <div class="carousel slide home-carousel gutter-bottom" id="featured-artist-carousel" data-ride="carousel" data-interval="5000">
 	<div class="carousel-inner">
-
     <div class="item active">
-      <!-- ## SLIDE 0: LINK TO... -->
-			<a style="color:white" href="/service/featured-artist/">
-      <!-- ## SLIDE 0: SMALL TEXT -->
-			<h3 class="hidden-xs">Featured Artist</h3>
-      <!-- ## SLIDE 0: IMAGE -->
-			<img src="{{ 'wegman-web-slideshow.jpg' | url_asset }}">
-      <!-- ## SLIDE 0: LARGE TEXT -->
-			<h2>William Wegman<br>
-          November 10 — January 15
-        	</h2>
-			</a>
-		</div>
-
-    <div class="item">
       <!-- ## SLIDE 1: LINK TO... -->
 			<a style="color:white" href="/sanya-kantarovsky-little-vera-2014-framed.html">
       <!-- ## SLIDE 1: SMALL TEXT -->
@@ -77,7 +62,7 @@
 
   </div>
 	<div class="slide-count hidden-xs">
-		<span class="current">1</span> / 5
+		<span class="current">1</span> / 4
 	</div>
 	<p>
 		<a class="left carousel-control" href="#featured-artist-carousel" data-slide="prev">

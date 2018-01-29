@@ -1,6 +1,14 @@
 {# snippets/link-featuredartist.rain #}
 
-<!-- <div class="featured-artists"> -->
+<div class="featured-artists">
+<div class="text-center"><br>
+<h4>Next Featured Artist:</h4>
+<h2 class="page-title" style="margin:15px 0"><strong>
+India Salvor Menuez
+</strong></h2>
+<h4>Coming February 2018</h4>
+<br><hr>
+</div>
 
 <!-- ## 1. FEATURED ARTIST COLOR: #?????? (HEX CODE) -->
 <div style="color: #5aafaf" class="featured-artist active">
@@ -9,7 +17,7 @@
 
 <!-- ## 2. FEATURED ARTIST NAME -->
   <strong>William Wegman</strong>
-
+  <br>
 <!-- ## 3. FEATURED ARTIST DATES -->
   10 November 2017 - 15 January 2018
 
@@ -38,12 +46,9 @@
   OUTDOOR ACTIVITIES — Works
 
 </h2>
-<div id="featured-products">
+<div id="featured-works">
   <div class="loading"></div>
 </div>
-</div>
-
-</h2>
 
 <div class="previous-artists">
 <h3>Previous Featured Artists</h3>
@@ -51,21 +56,23 @@
 
 <!-- ## 7. ADD A PREVIOUS ARTIST DIRECTLY BELOW THIS COMMENT -->
 
-<div class="col-sm-6"><a style="color: #c78b67;" href="/search/family"> <img src="{{ 'pr-posters-15-family.jpg' | url_asset }}" alt="FAMILY" /> 2017.XV </a></div>
-<div class="col-sm-6"><a style="color: #ffad74;" href="/brands/aidan-koch"> <img src="{{ 'PR-Posters-14-Aidan_Koch.jpg' | url_asset }}" alt="Aidan Koch" /> 2017.XIV </a></div>
-<div class="col-sm-6"><a style="color: #00838b;" href="/brands/joana-avillez"> <img src="{{ 'PR-Posters-13-Joana_Avillez.jpg' | url_asset }}" alt="Joana Avillez" /> 2016.XIII </a></div>
-<div class="col-sm-6"><a style="color: #2d2926;" href="/brands/maia-ruth-lee"> <img src="{{ 'PR-Posters-12-Maia_Ruth_Lee.jpg' | url_asset }}" alt="Maia Ruth Lee" /> 2016.XII </a></div>
-<div class="col-sm-6"><a class="baby-blue" href="/brands/natalie-weinberger"> <img src="{{ 'PR-Posters-11-Natalie_Weinberger.jpg' | url_asset }}" alt="Natalie Weinberger" /> 2016.XI </a></div>
-<div class="col-sm-6"><a class="salmon" href="/brands/leanne-shapton"> <img src="{{ 'PR-Posters-10-Leanne_Shapton.jpg' | url_asset }}" alt="Leanne Shapton" /> 2016.X </a></div>
-<div class="col-sm-6"><a class="forest" href="/brands/sigrid-calon"> <img src="{{ 'PR-Posters-09-Sigrid_Calon.jpg' | url_asset }}" alt="Sigrid Calon" /> 2015.IX </a></div>
-<div class="col-sm-6"><a class="dark-blue" href="/brands/pia-howell"> <img src="{{ 'PR-Posters-08-Pia_Howell.jpg' | url_asset }}" alt="Pia Howell" /> 2015.VIII </a></div>
-<div class="col-sm-6"><a class="yellow" href="/brands/ben-critton"> <img src="{{ 'PR-Posters-07-Benjamin_Critton.jpg' | url_asset }}" alt="Benjamin Critton" /> 2015.VII </a></div>
-<div class="col-sm-6"><a class="brown" href="/brands/richard-kostelanetz"> <img src="{{ 'PR-Posters-06-Richard_Kostelanetz.jpg' | url_asset }}" alt="Richard Kostelanetz" /> 2015.VI </a></div>
-<div class="col-sm-6"><a class="pink" href="/brands/justin-hunt-sloane"> <img src="{{ 'PR-Posters-05-Justin_Hunt_Sloane.jpg' | url_asset }}" alt="Justin Hunt Sloane" /> 2015.V </a></div>
-<div class="col-sm-6"><a class="red" href="/brands/robin-cameron"> <img src="{{ 'PR-Posters-04-Robin_Cameron.jpg' | url_asset }}" alt="Robin Cameron" /> 2015.IV </a></div>
-<div class="col-sm-6"><a class="gray" href="/brands/dexter-sinister"> <img src="{{ 'PR-Posters-03-Dexter_Sinister.jpg' | url_asset }}" alt="Dexter Sinister" /> 2014.III </a></div>
-<div class="col-sm-6"><a class="blue" href="/brands/rachel-domm"> <img src="{{ 'PR-Posters-02-Rachel_Domm.jpg' | url_asset }}" alt="Rachel Domm" /> 2014.II </a></div>
-<div class="col-sm-6"><a class="green" href="/brands/dan-graham"> <img src="{{ 'PR-Posters-01-Dan_Graham.jpg' | url_asset }}" alt="Dan Graham" /> 2014.I </a></div>
+<div class="col-xs-12 col-sm-6"><a style="color: #5aafaf;" href="/brands/william-wegman/"> <img src="{{ 'wegman-proof.jpg' | url_asset }}" alt="William Wegman" /> 2017.XVI </a></div>
+<div class="col-xs-12 col-sm-6"><a style="color: #c78b67;" href="/search/family"> <img src="{{ 'pr-posters-15-family.jpg' | url_asset }}" alt="FAMILY" /> 2017.XV </a></div>
+<div class="col-xs-12 col-sm-6"><a style="color: #ffad74;" href="/brands/aidan-koch"> <img src="{{ 'PR-Posters-14-Aidan_Koch.jpg' | url_asset }}" alt="Aidan Koch" /> 2017.XIV </a></div>
+<div class="col-xs-12 col-sm-6"><a style="color: #00838b;" href="/brands/joana-avillez"> <img src="{{ 'PR-Posters-13-Joana_Avillez.jpg' | url_asset }}" alt="Joana Avillez" /> 2016.XIII </a></div>
+<div class="col-xs-12 col-sm-6"><a style="color: #2d2926;" href="/brands/maia-ruth-lee"> <img src="{{ 'PR-Posters-12-Maia_Ruth_Lee.jpg' | url_asset }}" alt="Maia Ruth Lee" /> 2016.XII </a></div>
+<div class="col-xs-12 col-sm-6"><a class="baby-blue" href="/brands/natalie-weinberger"> <img src="{{ 'PR-Posters-11-Natalie_Weinberger.jpg' | url_asset }}" alt="Natalie Weinberger" /> 2016.XI </a></div>
+<div class="col-xs-12 col-sm-6"><a class="salmon" href="/brands/leanne-shapton"> <img src="{{ 'PR-Posters-10-Leanne_Shapton.jpg' | url_asset }}" alt="Leanne Shapton" /> 2016.X </a></div>
+<div class="col-xs-12 col-sm-6"><a class="forest" href="/brands/sigrid-calon"> <img src="{{ 'PR-Posters-09-Sigrid_Calon.jpg' | url_asset }}" alt="Sigrid Calon" /> 2015.IX </a></div>
+<div class="col-xs-12 col-sm-6"><a class="dark-blue" href="/brands/pia-howell"> <img src="{{ 'PR-Posters-08-Pia_Howell.jpg' | url_asset }}" alt="Pia Howell" /> 2015.VIII </a></div>
+<div class="col-xs-12 col-sm-6"><a class="yellow" href="/brands/ben-critton"> <img src="{{ 'PR-Posters-07-Benjamin_Critton.jpg' | url_asset }}" alt="Benjamin Critton" /> 2015.VII </a></div>
+<div class="col-xs-12 col-sm-6"><a class="brown" href="/brands/richard-kostelanetz"> <img src="{{ 'PR-Posters-06-Richard_Kostelanetz.jpg' | url_asset }}" alt="Richard Kostelanetz" /> 2015.VI </a></div>
+<div class="col-xs-12 col-sm-6"><a class="pink" href="/brands/justin-hunt-sloane"> <img src="{{ 'PR-Posters-05-Justin_Hunt_Sloane.jpg' | url_asset }}" alt="Justin Hunt Sloane" /> 2015.V </a></div>
+<div class="col-xs-12 col-sm-6"><a class="red" href="/brands/robin-cameron"> <img src="{{ 'PR-Posters-04-Robin_Cameron.jpg' | url_asset }}" alt="Robin Cameron" /> 2015.IV </a></div>
+<div class="col-xs-12 col-sm-6"><a class="gray" href="/brands/dexter-sinister"> <img src="{{ 'PR-Posters-03-Dexter_Sinister.jpg' | url_asset }}" alt="Dexter Sinister" /> 2014.III </a></div>
+<div class="col-xs-12 col-sm-6"><a class="blue" href="/brands/rachel-domm"> <img src="{{ 'PR-Posters-02-Rachel_Domm.jpg' | url_asset }}" alt="Rachel Domm" /> 2014.II </a></div>
+<div class="col-xs-12 col-sm-6"><a class="green" href="/brands/dan-graham"> <img src="{{ 'PR-Posters-01-Dan_Graham.jpg' | url_asset }}" alt="Dan Graham" /> 2014.I </a></div>
+</div>
 </div>
 </div>
 
@@ -99,4 +106,4 @@
 </style>
 
 <script type="text/javascript" src="{{ 'ejs-min.js' | url_asset }}"></script>
-<script type="text/javascript" src="{{ 'featured-products-template.js' | url_asset }}"></script>
+<script type="text/javascript" src="{{ 'template-featured-works.js' | url_asset }}"></script>

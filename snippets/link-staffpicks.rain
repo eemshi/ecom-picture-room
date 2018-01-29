@@ -11,9 +11,9 @@
 		</div>
 		<div class="col-sm-6">
 			<ol start="4">
-				<li><a class="staff-member" data-id="4">Katie Shepherd</a></li>
+				<li><a class="staff-member" data-id="4">Carson Salter</a></li>
 				<li><a class="staff-member" data-id="5">Claire Krouzecky</a></li>
-				<li><a class="staff-member" data-id=“6”>Cassandra Levine</a></li>
+				<li><a class="staff-member" data-id=“6”>Christine Y. Choi</a></li>
 			</ol>
 		</div>
 	</div>
@@ -34,7 +34,7 @@
 	</div>
 	<div class="staff-bio" data-id="4">
 		<h3 class="text-center">
-		<strong>Katie Shepherd</strong>
+		<strong>Carson Salter</strong>
 		</h3>
 	</div>
 	<div class="staff-bio" data-id="5">
@@ -44,384 +44,64 @@
 	</div>
 	<div class="staff-bio" data-id=“6”>
 		<h3 class="text-center">
-		<strong>Cassandra Levine</strong>
+		<strong>Christine Choi</strong>
 		</h3>
 	</div>
 
-<!-- EDIT SANDEEP'S PICKS BELOW -->
-<div class="staff-products product-grid active" data-id="1">
-	<div class="row product-row flex-row">
-
-	<!-- SANDEEP #1 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/seth-price-notes-on-this-show-seemingly-random-vio.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="http://static.shoplightspeed.com/shops/608912/files/002107309/image.jpg"></a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/seth-price-notes-on-this-show-seemingly-random-vio.html">
-				Seth Price<br>
-				Notes On This Show: Seemingly Random Violence…, 2006
-			</a></p>
-		</div>
-		</div>
-
-	<!-- SANDEEP #2 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/kyle-england-drawstring-bag-rose-by-kyle-england.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="https://static.shoplightspeed.com/shops/608912/files/005748672/kyle-england-drawstring-bag-rose-by-kyle-england.jpg"></a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/kyle-england-drawstring-bag-rose-by-kyle-england.html">
-				Kyle England<br>
-				Drawstring Bag, 2017
-			</a></p>
-		</div>
-		</div>
-
-	<!-- SANDEEP #3 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/michael-portnoy-kalochrome-2014-framed-unframed.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="http://static.shoplightspeed.com/shops/608912/files/002130066/image.jpg"></a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/michael-portnoy-kalochrome-2014-framed-unframed.html">
-				Michael Portnoy<br>
-				Kalochrome, 2014
-			</a></p>
-		</div>
-		</div>
-
-	<!-- SANDEEP #4 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/richard-kostelanetz-string-two-2015-framed-unframe.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="http://static.shoplightspeed.com/shops/608912/files/002108778/image.jpg"></a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/richard-kostelanetz-string-two-2015-framed-unframe.html">
-				Richard Kostelanetz<br>
-				String Two, 2015
-			</a></p>
-		</div>
-		</div>
-
-	</div>
+<div class="staff-products product-grid active" id="sandeep" data-id="1">
+  <div class="loading"></div>
 </div>
 
-<!-- EDIT MILAH'S PICKS BELOW -->
-<div class="staff-products product-grid" data-id="2">
-	<div class="row product-row flex-row">
-
-	<!-- MILAH #1 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/aidan-koch-bronze-hairpin-2015.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="https://static.shoplightspeed.com/shops/608912/files/002110453/aidan-koch-bronze-hairpin-2015.jpg"></a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/aidan-koch-bronze-hairpin-2015.html">
-				Aidan Koch<br>
-				Bronze Hairpin, 2015
-			</a></p>
-		</div>
-		</div>
-
-	<!-- MILAH #2 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/cy-twombly-1986-exhibition-poster-1986-framed-unfr.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="https://static.shoplightspeed.com/shops/608912/files/002110923/cy-twombly-1986-exhibition-poster-1986-framed-unfr.jpg"></a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/cy-twombly-1986-exhibition-poster-1986-framed-unfr.html">
-				Cy Twombly<br>
-				Exhibition Poster, 1986
-			</a></p>
-		</div>
-		</div>
-
-	<!-- MILAH #3 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/jann-cheifitz-spare-change-2016.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="https://static.shoplightspeed.com/shops/608912/files/002129729/jann-cheifitz-spare-change-2016.jpg"></a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/jann-cheifitz-spare-change-2016.html">
-				Jann Cheifitz<br>
-				Spare Change, 2016
-			</a></p>
-		</div>
-		</div>
-
-	<!-- MILAH #4 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/william-wegman-fig-158-wood-pecker-1989-framed.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="https://static.shoplightspeed.com/shops/608912/files/006145767/william-wegman-fig-158-wood-pecker-1989-framed.jpg"> </a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/william-wegman-fig-158-wood-pecker-1989-framed.html">
-				William Wegman<br>
-				Fig. 158 (Wood Pecker), 1989
-			</a></p>
-		</div>
-		</div>
-
-	</div>
+<div class="staff-products product-grid" id="milah" data-id="2">
+  <div class="loading"></div>
 </div>
 
-<!-- EDIT JESSICA'S PICKS BELOW -->
-<div class="staff-products product-grid" data-id="3">
-	<div class="row product-row flex-row">
-
-	<!-- JESSICA #1 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/aidan-koch-the-blonde-woman-2012-framed-unframed.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="http://static.shoplightspeed.com/shops/608912/files/002114083/image.jpg"> </a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/aidan-koch-the-blonde-woman-2012-framed-unframed.html">
-				Aidan Koch<br>
-				The Blonde Woman, 2012
-			</a></p>
-		</div>
-		</div>
-
-	<!-- JESSICA #2 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/kayla-guthrie-nv-2015-framed.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="http://static.shoplightspeed.com/shops/608912/files/002109595/image.jpg"> </a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/kayla-guthrie-nv-2015-framed.html">
-				Kayla Guthrie<br>
-				N.V., 2015
-			</a></p>
-		</div>
-		</div>
-
-	<!-- JESSICA #3 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/hollywood-rd-large-2015-framed-unframed.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="http://static.shoplightspeed.com/shops/608912/files/002107915/image.jpg"> </a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/hollywood-rd-large-2015-framed-unframed.html">
-				Pia Howell<br>
-				Hollywood Rd. (Butt With Column), 2015
-			</a></p>
-		</div>
-		</div>
-
-	<!-- JESSICA #4 -->
-
-	</div>
+<div class="staff-products product-grid" id="jessica" data-id="3">
+  <div class="loading"></div>
 </div>
 
-<!-- EDIT KATIE'S PICKS BELOW -->
-<div class="staff-products product-grid" data-id="4">
-	<div class="row product-row flex-row">
-
-	<!-- KATIE #1 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/the-paris-review-1965-framed.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="http://static.shoplightspeed.com/shops/608912/files/002099828/image.jpg"> </a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/the-paris-review-1965-framed.html">
-				Louise Nevelson<br>
-				The Paris Review, 1965
-			</a></p>
-		</div>
-		</div>
-
-	<!-- KATIE #2 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/3-dialogues-1977-framed-unframed.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="http://static.shoplightspeed.com/shops/608912/files/002110937/image.jpg"> </a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/3-dialogues-1977-framed-unframed.html">
-				Cy Twombly<br>
-				3 Dialogues, 1977
-			</a></p>
-		</div>
-		</div>
-
-	<!-- KATIE #3 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/pieta-in-reverse-2013.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="http://static.shoplightspeed.com/shops/608912/files/002108342/image.jpg"> </a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/pieta-in-reverse-2013.html">
-				Abake<br>
-				Pieta In Reverse, 2013
-			</a></p>
-		</div>
-		</div>
-
-	<!-- KATIE #4 -->
-
-	</div>
+<div class="staff-products product-grid" id="carson" data-id="4">
+  <div class="loading"></div>
 </div>
 
-<!-- EDIT CLAIRE'S PICKS BELOW -->
-
-<div class="staff-products product-grid" data-id="5">
-	<div class="row product-row flex-row">
-
-	<!-- CLAIRE #1 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/william-wegman-field-guide-to-north-america-and-to.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="https://static.shoplightspeed.com/shops/608912/files/006145746/william-wegman-field-guide-to-north-america-and-to.jpg"> </a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/william-wegman-field-guide-to-north-america-and-to.html">
-				William Wegman<br>
-				Field Guide to North America And To Other Regions, 1993
-			</a></p>
-		</div>
-		</div>
-
-	<!-- CLAIRE #2 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/ana-kras-family-in-brown-drawing-framed-2017.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="https://static.shoplightspeed.com/shops/608912/files/004560312/ana-kras-family-in-brown-drawing-framed-2017.jpg"> </a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/ana-kras-family-in-brown-drawing-framed-2017.html">
-				Ana Kraš<br>
-				Family in Brown, 2017
-			</a></p>
-		</div>
-		</div>
-
-	<!-- CLAIRE #3 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/joseph-beuys-3-tonnen-edition-3-ton-edition-1973-1.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="https://static.shoplightspeed.com/shops/608912/files/002107225/joseph-beuys-3-tonnen-edition-3-ton-edition-1973-1.jpg"> </a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/joseph-beuys-3-tonnen-edition-3-ton-edition-1973-1.html">
-				Joseph Beuys<br>
-				3 Tonnen-Edition (3 Ton Edition), 1973 - 1985
-			</a></p>
-		</div>
-		</div>
-
-	<!-- CLAIRE #4 -->
-    <div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/william-wegman-family-of-trees-1993-framed.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="https://static.shoplightspeed.com/shops/608912/files/006145703/william-wegman-family-of-trees-1993-framed.jpg"> </a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/william-wegman-family-of-trees-1993-framed.html">
-				William Wegman<br>
-				Family of Trees, 1993
-			</a></p>
-		</div>
-		</div>
-
-	</div>
+<div class="staff-products product-grid" id="claire" data-id="5">
+  <div class="loading"></div>
 </div>
 
-<!-- EDIT CASSANDRA’S PICKS BELOW -->
-<div class="staff-products product-grid" data-id=“6”>
-	<div class="row product-row flex-row">
-
-	<!-- CASSANDRA #1 -->
-		<div class="col-sm-6">
-		<div class="product_cell">
-			<div class="product_cell_graphic">
-			<!-- EDIT PRODUCT URL -->
-			<a href="/richard-kostelanetz-kill-slay-1975-signed-unframed.html">
-			<!-- EDIT IMAGE URL -->
-			<img src="http://static.shoplightspeed.com/shops/608912/files/002111821/image.jpg"> </a>
-			</div>
-			<!-- EDIT PRODUCT URL, ARTIST NAME, AND PRODUCT NAME -->
-			<p><a href="/richard-kostelanetz-kill-slay-1975-signed-unframed.html">
-				Richard Kostelanetz<br>
-				KILL, SLAY…, 1975
-			</a></p>
-		</div>
-		</div>
-
-	<!-- CASSANDRA #2 -->
-
-	<!-- CASSANDRA #3 -->
-
-	<!-- CASSANDRA #4 -->
-
-	</div>
+<div class="staff-products product-grid" id="christine" data-id=“6”>
+  <div class="loading"></div>
 </div>
 
 </div>
+
+<style>
+.loading {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  background-color: #333;
+  border-radius: 100%;
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+@keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+</style>
+
+<script type="text/javascript" src="{{ 'ejs-min.js' | url_asset }}"></script>
+<script type="text/javascript" src="{{ 'template-staff-picks.js' | url_asset }}"></script>
